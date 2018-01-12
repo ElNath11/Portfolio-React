@@ -1,0 +1,112 @@
+/* font */
+.roboto { font-family: 'Roboto'; }
+.Montserrat { font-family: 'Montserrat'; }
+.Poppin { font-family: 'Poppins'; }
+
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.f18 { font-size: 18px; }
+.f24 { font-size: 24px; }
+.f28 { font-size: 28px; }
+.f30 { font-size: 30px; }
+.f34 { font-size: 34px; }
+/* font */
+body{
+	margin: 0;
+}
+
+header {
+	display: block;
+	width: 100%;
+	background: #333333;
+	color: #ffffff;
+}
+
+nav ul li a{
+	list-style-type: none;
+	color: #ffffff;
+	line-height: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav ul li a:hover{
+	color: #e74c3c;
+	transition: .3s;
+}
+
+
+.sangkar {
+    position: relative 
+}
+.text-sangkar {
+	text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+}
+
+.text-sangkar-tengah {
+	text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+}
+
+/* Colour */
+.bg-black { background-color: #333333; }
+.white { color: #ffffff; }
+.black3 { color: #333333; }
+.black6 { color: #666666; }
+.brown7 { color: #777777; }
+.bg-f4 { background-color: #f4f4f4; }
+/* Colour */
+
+/* Size */
+.icon {  width: 64px; height: 64px; }
+.lh1-8 { line-height: 1.8; }
+.ls2 { letter-spacing: 2px }
+/* Size */
+
+/* image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.img-center { margin: 0 auto; }
+/* image */
+
+@media (max-width:850px){
+/* Position */
+.s-center{ text-align: center !important; margin: 0 auto !important; display: block; float: none !important; padding-left: 0 !important; padding-right: 0 !important;}
+/* Position */
+}
+/* custom */
+.textemail {
+	border: none;
+    background-color: #f4f4f4;
+    height: 35px;
+    padding: 5px;
+    color: #333333;
+    font-family: Poppin;
+}
+.gosubmit {
+	background-color: #333333;
+	border: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	height: 44.5px;
+	padding: 10px;
+}
+.img-sosmed { width: 32px; height: 32px; }
+/* custom */
+
